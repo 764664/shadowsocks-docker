@@ -1,9 +1,7 @@
-FROM debian:jessie
+FROM python:2.7-alpine
 
 MAINTAINER Jie Lu <764664@gmail.com>
 
-RUN apt update
-RUN apt install -y python-pip
 RUN pip install shadowsocks
 
 ENV SS_SERVER_PORT 8388
