@@ -14,6 +14,4 @@ ENV SS_PASSWORD password
 ENV SS_METHOD aes-256-cfb
 ENV SS_TIMEOUT 300
 
-EXPOSE $SS_SERVER_PORT
-
 CMD /usr/bin/shadowsocks-server -d -p ${SS_SERVER_PORT} -k ${SS_PASSWORD} -m ${SS_METHOD} -t ${SS_TIMEOUT}
