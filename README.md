@@ -1,4 +1,4 @@
-# shadowsocks-go-docker
+# shadowsocks-docker
 
 ## Environment Variables
 
@@ -21,6 +21,6 @@ You can change these using the `-e` parameter of Docker.
 Example:
 
 ```shell
-docker run --name ss -d -e SS_SERVER_PORT=9999 -p 9999:9999 observer17/shadowsocks-go-docker
+docker run --name ss -d -e SS_SERVER_PORT=9999 -p 9999:9999 observer17/shadowsocks-docker
 ```
 
