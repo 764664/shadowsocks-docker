@@ -2,7 +2,7 @@ FROM python:2.7-alpine
 
 MAINTAINER Jie Lu <764664@gmail.com>
 
-RUN pip install shadowsocks
+RUN pip install git+https://github.com/shadowsocks/shadowsocks.git@master
 
 ENV SS_SERVER_PORT 8388
 ENV SS_PASSWORD password
