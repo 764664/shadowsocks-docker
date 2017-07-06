@@ -4,7 +4,7 @@ A Docker container for shadowsocks.
 
 Based on [python:2.7-alpine](https://hub.docker.com/r/library/python/).
 
-Only **21MB**.
+Only **27MB**.
 
 [Link to Docker Hub](https://hub.docker.com/r/observer17/shadowsocks/)
 
